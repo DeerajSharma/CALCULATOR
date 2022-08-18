@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Javascript Calculator</title>
+  <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="heading">
+      <h1>Basic Calculator By Deeraj Sharma</h1>
+    </div>
+    <div class="calculator">
+      <div class="output">
+        <pre id="upper"></pre>
+        <pre id="lower">0</pre>
+      </div>
+      <div class="input">
+        <button onclick="pressAllClear()">AC</button>
+        <button onclick="pressNum(this)">9</button>
+        <!-- <button onclick="pressClear()"><i class="fas fa-backspace"></i></button> -->
+        
+        <button onclick="pressNum(this)">8</button>
+        <button onclick="pressNum(this)">7</button>
+        
+        <button onclick="pressOperator(this)">+</button>
+        
+        <button onclick="pressNum(this)">6</button>
+        <button onclick="pressNum(this)">5</button>
+        <button onclick="pressNum(this)">4</button>
+        
+        <button onclick="pressOperator(this)">-</button>
+        <button onclick="pressNum(this)">3</button>
+        
+        <button onclick="pressNum(this)">2</button>
+        <button onclick="pressNum(this)">1</button>
+        <button onclick="pressOperator(this)">&times;</button>
+        
+        <button onclick="pressDot()">.</button>
+        <button onclick="pressNum(this)">0</button>
+        <button onclick="pressEqual()">=</button>
+        
+        <button onclick="pressOperator(this)">&div;</button>
+        
+        <button onclick="pressBracket(this)">(</button>
+        <button onclick="pressBracket(this)">)</button>
+        
+      </div>
+    </div>
+  </div>
+<script src="main.js"></script>
+</body>
+
+</html>
